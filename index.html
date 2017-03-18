@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-us" ng-app="weatherApp">
+	<head>
+		<title>Learn and Understand AngularJS::Weather Forecast Project</title>
+		<meta http-equiv="X-UA-Compatible" content="IE-Edge">
+		<meta charset="UTF-8">
+
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<script src="lib/angular.js"></script>
+		<script src="lib/angular-route.js"> </script>
+		<script src="lib/angular-messages.js"></script>
+		<script src="lib/angular-resource.js"></script>
+		<script src="lib/jquery-3.1.1.min.js"></script>
+		<script src="lib/bootstrap.js"></script>
+		<script src="js/app.js"></script>
+		<style>
+			html,body,input,select,textarea {
+				font-size: 1.05em;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header>
+			<nav class="navbar navbar-default">
+				<div class="container">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="/">AngularJS Weather Forecast</a>
+					</div>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#"><i class="fa fa-home"></i>Home</a></li>
+
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<div class="container">
+			<div ng-view></div>
+		</div>
+		<script src="js/scratchpad.js"></script>
+
+	</body>
+</html>
